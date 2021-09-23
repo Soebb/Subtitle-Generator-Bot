@@ -42,7 +42,7 @@ def ds_process_audio( audio_file, file_handle):
         r=sr.Recognizer()
         with sr.AudioFile(audio_file) as source:
             audio_data=r.record(source)
-            text=r.recognize_google(audio_data)
+            text=r.recognize_google(audio_data,language='tr-TR')
             print(text)
             infered_text = text
     except:
