@@ -1,14 +1,6 @@
 {
     "name": "SubGenBot",
     "env": {
-        "API_ID": {
-            "description": "Your telegram app id",
-            "value": ""
-        },
-        "API_HASH": {
-            "description": "Your telegram api hash",
-            "value": ""
-        },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
             "value": ""
