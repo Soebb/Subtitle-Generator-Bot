@@ -1,5 +1,5 @@
-pyrogram
-tgcrypto
+telegram
+python-telegram-bot==11.1.0
 cycler==0.10.0
 numpy==1.18.1
 joblib==0.16.0
